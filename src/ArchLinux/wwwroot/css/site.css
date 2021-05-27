@@ -162,11 +162,15 @@ h5 {
 
 
 /*BTN*/
-
+#btn-download {
+    width: 150px;
+    height: 50px;
+}
 .btn-info-internal {
     color: #fff;
     background-color: #08c;
     border-color: #0088cc;
+    
 }
 
 .btn-info-internal:hover {
