@@ -73,6 +73,7 @@ body {
 }
 
 .footer {
+    background-color: #f8f8f8;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -85,6 +86,21 @@ h2 {
     letter-spacing: -0.022em;
     font-weight: 600;
     line-height: 1.1;
+    margin: 0 0 0.5em 0;
+}
+
+h4 {
+    font-size: 30px;
+    letter-spacing: -0.021em;
+    font-weight: 600;
+    margin: 0 0 0.5em 0;
+}
+
+h5 {
+    font-size: 24px;
+    letter-spacing: 0.019em;
+    font-weight: 700;
+    text-transform: uppercase;
     margin: 0 0 0.5em 0;
 }
 
@@ -263,12 +279,6 @@ a:hover {
     color: #15a6f0;
 }
 
-h4 {
-    font-size: 30px;
-    letter-spacing: -0.021em;
-    font-weight: 600;
-    margin: 0 0 0.5em 0;
-}
 
 p {
     font-size: 24px;
@@ -277,10 +287,16 @@ p {
     margin: 1.5em 0;
 }
 
+.install figure{
+    background-image: url(img/install.png)
+}
 
+.requirements figure {
+    background-image: url(img/requirements.png);
+}
 
-.testando figure {
-    background-image: url("https://assets.zorincdn.com/images/help/requirements.png");
+.app-install figure {
+    background-image: url(img/apps.png)
 }
 /*CONTAINER*/
 
@@ -329,4 +345,21 @@ p {
         width: calc(100% - 32px);
         margin: 0 auto;
     }
+}
+
+/*FORUM*/
+
+.forum figure{
+    background-image: url(img/forum.png)
+}
+
+.forum-h5{
+    opacity: 0.5;
+}
+
+.link-forum {
+    color: #08c;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
 }
