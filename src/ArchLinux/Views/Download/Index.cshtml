@@ -9,18 +9,18 @@
                 <div class="row featurette">
                     <div class="col-6">
                         <div class="d-flex justify-content-center">
-                            <img src="~/css/img/deepin-arch.png" style="width: 100%; height:100%"/>
+                            <img src="~/css/img/download-image.jpg" class="img-100"/>
                         </div>
                     </div>
                     <div class="col-6">
                         <div>
                             <div class="text-muted">
-                                <h4 class="">
-                                    Arch<span>Linux</span>
+                                <h4 id="h4-download">
+                                    Arch <span id="span-download">Linux</span>
                                 </h4>
                             </div>
                             <div>
-                                <h4 class="text-muted"><span>Faca do Arch um sistema unico.</span></h4>
+                                <h4 class="text-muted"><span>Faça do Arch um sistema único.</span></h4>
                                 <p>The standard edition for most modern computers. Includes helpful apps to get started with your computer.</p>
                             </div>
                         </div>
@@ -29,21 +29,13 @@
             </section>
             <div>
                 <section class="download">
-                    <div class="row">
-                        <div class="col">
-                            <div class="d-flex justify-content-center">
-                                <form asp-action="Index">
-                                    <button type="submit" class="btn btn-info-internal " id="btn-download">Download</button>
-                                </form>
+                    <div class="d-flex justify-content-center">
+                        <form asp-action="Index">
+                            <div class="form-download">
+                                <button type="submit" class="btn btn-info-internal " id="btn-download">Download</button>
+                                <p class="text-form-download"> Ou <br /><a class="link-forum" href="#">Faça download direto do site oficial.</a></p>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="d-flex justify-content-start">
-                                <p class="text-muted">
-                                    <a class="link-forum" href="#">Ou faca download direto do site oficial.</a>
-                                </p>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </section>
             </div>

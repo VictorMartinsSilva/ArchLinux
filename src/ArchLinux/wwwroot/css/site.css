@@ -73,7 +73,7 @@ body {
 }
 
 .footer {
-    background-color: #f8f8f8;
+    background-image: linear-gradient(#fff,#cccccc);
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -102,6 +102,11 @@ h5 {
     font-weight: 700;
     text-transform: uppercase;
     margin: 0 0 0.5em 0;
+}
+
+.img-100{
+    width: 100%;
+    height: 100%;
 }
 
 /*NAVBAR*/
@@ -366,4 +371,39 @@ p {
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
+}
+
+/*DOWNLOAD*/
+
+.form-download{
+    text-align: center;
+    margin-left: -170%;
+}
+@media screen and (max-width: 1360px) {
+    .form-download {
+        text-align: center;
+        margin-left: -130%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .form-download {
+        text-align: center;
+        margin-left: -100%;
+    }
+}
+
+.text-form-download{
+    margin-top:0;
+}
+
+#h4-download{
+    color: #08c;
+    font-weight: 650;
+    font-size: 45px;
+}
+
+#span-download{
+    color: #000;
 }
