@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 
 namespace ArchLinux.Controllers
 {
+    [Route("")]
+    [Route("arch-linux")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -17,12 +19,12 @@ namespace ArchLinux.Controllers
         {
             _logger = logger;
         }
-
+        [Route("")]
         public IActionResult Index()
         {
             return View();
         }
-
+        [Route("erro")]
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
