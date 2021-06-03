@@ -433,5 +433,9 @@ p {
 }
 
 #you-need {
-    margin-top: 20%;
+    padding: 10% 0 !important;
+    background-color: #f8f8f8;
+}
+#initial {
+    margin-bottom: 10%;
 }
