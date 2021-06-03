@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ArchLinux.Controllers
 {
+    [Route("arch-linux/download")]
     public class DownloadController : Controller
     {
         public IActionResult Index()
