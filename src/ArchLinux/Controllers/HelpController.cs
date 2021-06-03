@@ -12,5 +12,15 @@ namespace ArchLinux.Controllers
         {
             return View();
         }
+
+        public IActionResult Instalacao() 
+        {
+            return View();
+        }
+
+        public IActionResult PosInstalacao()
+        {
+            return View();
+        }
     }
 }
