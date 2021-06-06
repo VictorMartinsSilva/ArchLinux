@@ -461,7 +461,32 @@ p {
     margin-bottom: 10%;
 }
 
-#balena{
+.space-hr {
     margin-top: 10%;
     margin-bottom: 10%;
 }
+ol {
+    margin: 7% 0 0 32px;
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 1.5;
+}
+
+.li-help {
+    margin-bottom: 3%;
+}
+
+.shadow{
+    margin-left: 10%;
+    margin-top:5%;
+    margin-bottom:3%;
+    width: 672px;
+    height: 436px;
+    max-width: calc(100% - 64px);
+}
+
+.type{
+    margin-top: 5%;
+    list-style-type: disc;
+}
+
