@@ -490,3 +490,51 @@ ol {
     list-style-type: disc;
 }
 
+#container-video video {
+    margin-top: 29.9%;
+    width: 1080px;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+#container-video {
+    margin: auto;
+    width: 75vw;
+    overflow: hidden;
+    position: relative;
+}
+
+@media screen and (max-width: 1360px) {
+
+    #container-video video {
+        margin-top: 29.9%;
+        width: calc(100% - 64px);
+        transform: translateY(-50%);
+        position: absolute;
+    }
+@media screen and (max-width: 1024px) {
+    #container-video video {
+        margin-top: 29.9%;
+        width: calc(100% - 56px);
+        transform: translateY(-50%);
+        position: absolute;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    #container-video video {
+        margin-top: 29.9%;
+        width: calc(100% - 32px);
+        transform: translateY(-50%);
+        position: absolute;
+    }
+}
+}@media screen and (max-width: 480px) {
+
+    #container-video video {
+        margin-top: 29.9%;
+        width: calc(100% - 16px);
+        transform: translateY(-50%);
+        position: absolute;
+    }
+}
