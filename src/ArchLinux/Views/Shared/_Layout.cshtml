@@ -7,9 +7,13 @@
 
     <title>@ViewData["Title"] - Arch Linux</title>
 
+    <link rel="icon" href="~/css/img/logo-while-white.png" id="dark-scheme-icon">
+    <link rel="icon" href="~/css/img/logo-while-black.png" id="light-scheme-icon">
+
     <link rel="stylesheet" href="~/css/reset.css" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+
 </head>
 <body>
     <header>
@@ -35,7 +39,7 @@
             </div>
         </nav>
     </header>
-    <div class="">
+    <div>
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
