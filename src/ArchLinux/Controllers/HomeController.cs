@@ -19,8 +19,14 @@ namespace ArchLinux.Controllers
         {
             _logger = logger;
         }
+
         [Route("")]
         public IActionResult Index()
+        {
+            return View();
+        }
+        [Route("privacy")]
+        public IActionResult Privacy()
         {
             return View();
         }
@@ -30,5 +36,7 @@ namespace ArchLinux.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        
     }
 }

@@ -548,3 +548,22 @@ ol {
 #press {
     margin-bottom: 10%;
 }
+
+.link-referencia{
+    text-decoration: none;
+    color: #000;
+}
+.link-referencia:hover{
+    text-decoration: none;
+    color: #1861ac;
+}
+
+#referencias{
+    margin-bottom: 10%;
+}
+
+.refe {
+    font-size: 24px;
+    letter-spacing: -0.019em;
+    line-height: 1.5;
+}
