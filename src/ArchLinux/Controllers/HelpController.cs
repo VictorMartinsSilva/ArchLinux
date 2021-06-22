@@ -18,5 +18,10 @@ namespace ArchLinux.Controllers
         {
             return View();
         }
+        [Route("pos_instalacao")]
+        public IActionResult PosInstalacao() 
+        {
+            return View();
+        }
     }
 }
