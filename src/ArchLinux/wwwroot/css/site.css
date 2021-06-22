@@ -125,6 +125,10 @@ hr {
 }
 
 /*NAVBAR*/
+.navbar-toggler-icon{
+    color: #000;
+}
+
 #navbar-name {
     text-decoration: none;
     color: #08c;
@@ -490,11 +494,12 @@ ol {
     list-style-type: disc;
 }
 
-#container-video video {
+#container-video iframe {
     margin-top: 29.9%;
     width: 1080px;
     transform: translateY(-50%);
     position: absolute;
+    height:1380px;
 }
 
 #container-video {
@@ -506,14 +511,14 @@ ol {
 
 @media screen and (max-width: 1360px) {
 
-    #container-video video {
+    #container-video iframe {
         margin-top: 29.9%;
         width: calc(100% - 64px);
         transform: translateY(-50%);
         position: absolute;
     }
 @media screen and (max-width: 1024px) {
-    #container-video video {
+    #container-video iframe {
         margin-top: 29.9%;
         width: calc(100% - 56px);
         transform: translateY(-50%);
@@ -522,7 +527,7 @@ ol {
 }
 @media screen and (max-width: 768px) {
 
-    #container-video video {
+    #container-video iframe {
         margin-top: 29.9%;
         width: calc(100% - 32px);
         transform: translateY(-50%);
@@ -531,7 +536,7 @@ ol {
 }
 }@media screen and (max-width: 480px) {
 
-    #container-video video {
+    #container-video iframe {
         margin-top: 29.9%;
         width: calc(100% - 16px);
         transform: translateY(-50%);
