@@ -28,16 +28,13 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link-internal" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link-internal" asp-area="" asp-controller="Home" asp-action="Index">Sobre</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link-internal" asp-area="" asp-controller="Download" asp-action="Index">Download</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link-internal" asp-area="" asp-controller="Help" asp-action="Index">Help</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link-internal" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                     </ul>
                 </div>
@@ -52,7 +49,7 @@
 
     <footer class="footer text-muted">
         <div class="container">
-            &copy; 2021 - While Inc.
+            &copy; 2021 - While Inc. - <a class="ref" asp-controller="Home" asp-action="Privacy">Referencias</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
