@@ -14,13 +14,13 @@ namespace ArchLinux.Controllers
             return View();
         }
 
-        [HttpPost,ActionName("Index")]
-        public async Task<IActionResult> DownloadFile()
-        {
-            var fileBytes = await System.IO.File.ReadAllBytesAsync("wwwroot/file/archlinux-2021.05.01-x86_64.iso");
-            var fileName = "archlinux-demostration.iso";
-
-            return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, fileName);
-        }
+        //[HttpPost,ActionName("Index")]
+        //public async Task<IActionResult> DownloadFile()
+        //{
+        //    var fileBytes = await System.IO.File.ReadAllBytesAsync("wwwroot/file/archlinux-2021.05.01-x86_64.iso");
+        //    var fileName = "archlinux-demostration.iso";
+        //
+       //     return File(fileBytes, System.Net.Mime.MediaTypeNames.Application.Octet, fileName);
+      //  }
     }
 }
